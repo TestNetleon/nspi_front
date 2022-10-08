@@ -32,7 +32,7 @@ const Sidebar = () => {
                 &nbsp;
               </li>              
               <li className="nav-item">
-              <Link to="/userlist"
+              <Link to="/admin/userlist"
                   className="d-flex align-items-center"
                 >
                   <svg
@@ -55,7 +55,7 @@ const Sidebar = () => {
               </li>
             
               <li className="nav-item">
-                <Link to = "/helptopics"
+                <Link to = "/admin/helptopics"
                   className="d-flex align-items-center"
                 >
                   <svg
@@ -78,7 +78,7 @@ const Sidebar = () => {
               </li>
 
               <li className="nav-item">
-                <Link to = "/institutes"
+                <Link to = "/admin/institutes"
                   className="d-flex align-items-center"
                 >
                   <svg
@@ -101,7 +101,7 @@ const Sidebar = () => {
               </li>
 
               <li className="nav-item">
-                <Link to = "/queries"
+                <Link to = "/admin/queries"
                   className="d-flex align-items-center"
                 >
                   <svg
@@ -124,7 +124,7 @@ const Sidebar = () => {
               </li>
 
               <li className="nav-item">
-                <Link to = "/state"
+                <Link to = "/admin/state"
                   className="d-flex align-items-center"
                 >
                   <svg
@@ -147,7 +147,7 @@ const Sidebar = () => {
               </li>
 
               <li className="nav-item">
-                <Link to = "/districts"
+                <Link to = "/admin/districts"
                   className="d-flex align-items-center"
                 >
                   <svg
@@ -170,7 +170,7 @@ const Sidebar = () => {
               </li>
 
               <li className="nav-item">
-                <Link to = "/levels"
+                <Link to = "/admin/levels"
                   className="d-flex align-items-center"
                 >
                   <svg
@@ -194,7 +194,7 @@ const Sidebar = () => {
 
 
               <li className="nav-item">
-                <Link to = "/programmes"
+                <Link to = "/admin/programmes"
                   className="d-flex align-items-center"
                 >
                   <svg
@@ -217,7 +217,7 @@ const Sidebar = () => {
               </li>
 
               <li className="nav-item">
-                <Link to = "/discipline"
+                <Link to = "/admin/discipline"
                   className="d-flex align-items-center"
                 >
                   <svg
@@ -240,7 +240,7 @@ const Sidebar = () => {
               </li>
 
               <li className="nav-item">
-                <Link to = "/organization"
+                <Link to = "/admin/organization"
                   className="d-flex align-items-center"
                 >
                   <svg

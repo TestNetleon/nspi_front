@@ -22,26 +22,23 @@ function App() {
 
   const [adminDetails, setAdminDetails] = useState(null);
 
-  console.log("app_", adminDetails);
-
   return (
     <Routes>
-      <Route path="login" element={<Login setAdminDetails={setAdminDetails} />} />
-      <Route path="/dashboard" element={<Home adminDetails={adminDetails} />} />
-      <Route path="/userlist" element={<UserList />}/>
-      <Route path="/helptopics" element={<HelpTopic />}/>
-      <Route path="/add_helptopic" element={<AddHelpTopic />}/>
-      <Route path="/update_helptopic/:id" element={<UpdateHelpTopic />}/>
-      <Route path="/institutes" element={<Institute />}/>
-      <Route path="/queries" element={<Query />}/>
-      <Route path="/query_details/:id" element={<QueryDetail />}/>
-      <Route path="/districts" element={<Districts />}/>
-      <Route path="/programmes" element={<Programmes />}/>
-      <Route path="/levels" element={<Level />}/>
-      <Route path="/discipline" element={<Discipline />}/>
-      <Route path="/organization" element={<Organization />}/>
-      <Route path="/state" element={<State />}/>
-      
+      <Route path="/admin/login" element={<Login setAdminDetails={setAdminDetails} />} />
+      <Route path="/admin/dashboard" element={<Home adminDetails={adminDetails} />} />
+      <Route path="/admin/userlist" element={<UserList />}/>
+      <Route path="/admin/helptopics" element={<HelpTopic />}/>
+      <Route path="/admin/add_helptopic" element={<AddHelpTopic />}/>
+      <Route path="/admin/update_helptopic/:id" element={<UpdateHelpTopic />}/>
+      <Route path="/admin/institutes" element={<Institute />}/>
+      <Route path="/admin/queries" element={<Query />}/>
+      <Route path="/admin/query_details/:id" element={<QueryDetail />}/>
+      <Route path="/admin/districts" element={<Districts />}/>
+      <Route path="/admin/programmes" element={<Programmes />}/>
+      <Route path="/admin/levels" element={<Level />}/>
+      <Route path="/admin/discipline" element={<Discipline />}/>
+      <Route path="/admin/organization" element={<Organization />}/>
+      <Route path="/admin/state" element={<State />}/>      
     </Routes>
   );
 }
