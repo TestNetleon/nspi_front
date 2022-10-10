@@ -17,7 +17,6 @@ ol li{
     margin-bottom: 5px;
 }
 .wrapper_landing{
-    /* background-image: url(../images/NSPI-website-banner.jpg); */
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
@@ -34,8 +33,6 @@ ol li{
     height: 100vh;
 }
 
-/* 
-/* Keyframes for the fade-in */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } } */
@@ -73,7 +70,6 @@ ol li{
     background: #fff;
     border-radius: 550px;
 }
-/*Container*/
 .container{
     max-width: 1280px;
     margin: auto;
@@ -110,7 +106,7 @@ ol li{
     align-items: center;
     padding: 15px 0px;
 }
-/*navigation*/
+
 .navigation {
     background-color: #180e71;
     position: relative;
@@ -177,7 +173,6 @@ ol li{
     justify-content: flex-end;
 }
 
-/*banner_background*/
 .website_banner {
     background-image: url(../public/images/banner_background.jpg);
     background-repeat: repeat;
@@ -202,7 +197,6 @@ ol li{
     display: flex;
     padding: 20px 0px 20px 0px;
 }
-/*NSPI Timeline*/
 .nspi_timeline{
 
 }
@@ -215,7 +209,6 @@ ol li{
 .nspi_timeline ul li {
     list-style: none;
 }
-/*why_nspi_section*/
 .container.why_nspi_inner {
     display: flex;
     justify-content: space-between;
@@ -260,7 +253,6 @@ ol li{
 .nspi_section p{font-family: 'margon430w08-regularregular'; font-size: 20px;}
 .section_right{}
 
-/*sol*/
 .solution_nspi{
     font-family: 'margon430w08-regularregular';
     font-size: 20px;
@@ -295,7 +287,7 @@ ol li{
     justify-content: space-between;
     text-align: center;
 }
-/*Footer*/
+
 footer {
     background: #180e71;
     font-family: 'margon430w08-regularregular';
@@ -392,7 +384,7 @@ footer {
 .section_contact{
     margin-bottom: 40px;
 }
-/*team_page*/
+
 .team_page {
     display: flex;
     flex-wrap: wrap;
