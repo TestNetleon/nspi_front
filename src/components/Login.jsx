@@ -19,7 +19,7 @@ const Login = ({ setAdminDetails }) => {
                 if (response?.data?.status) {
                     
                     setAdminDetails(response.data);
-                    navigate('/dashboard');
+                    navigate('/admin/dashboard');
                 } else {
                     setError(response?.data?.message);
                 }

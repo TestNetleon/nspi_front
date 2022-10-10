@@ -15,8 +15,16 @@ import Level from './components/Level';
 import Discipline from './components/Discipline';
 import Organization from './components/Organization';
 import State from './components/State';
+import WebsiteHome from './container/WebsiteHome';
 
 import { useState } from 'react';
+import WebsiteAboutUs from './container/WebsiteAboutUs';
+import WebsiteOurInitiatives from './container/WebsiteOurInitiatives';
+import WebsiteTeams from './container/WebsiteTeams';
+import WebsiteContactUs from './container/WebsiteContactUs';
+import WebsiteAskForHelp from './container/WebsiteAskForHelp';
+import WebsitePrivacyPolicy from './container/WebsitePrivacyPolicy';
+import WebsiteTermsAndConditions from './container/WebsiteTermsAndConditions';
 
 function App() {
 
@@ -24,7 +32,17 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/admin/login" element={<Login setAdminDetails={setAdminDetails} />} />
+      <Route path="/" element={<WebsiteHome />} />
+      <Route path="/about-us" element={<WebsiteAboutUs />} />
+      <Route path="/our-initiatives" element={<WebsiteOurInitiatives />} />
+      <Route path="/teams" element={<WebsiteTeams />} />
+      <Route path="/contact-us" element={<WebsiteContactUs />} />
+      <Route path="/ask-for-help" element={<WebsiteAskForHelp />} />
+      <Route path="/privacy-policy" element={<WebsitePrivacyPolicy />} />
+      <Route path="/terms-and-conditions" element={<WebsiteTermsAndConditions />} />
+     
+
+      <Route path="/admin" element={<Login setAdminDetails={setAdminDetails} />} />
       <Route path="/admin/dashboard" element={<Home adminDetails={adminDetails} />} />
       <Route path="/admin/userlist" element={<UserList />}/>
       <Route path="/admin/helptopics" element={<HelpTopic />}/>
